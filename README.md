@@ -1,2 +1,2 @@
-# MemoryGame_Restorer
+# Memory VR Game (Restorer)
 MemoryGame_Restorer
