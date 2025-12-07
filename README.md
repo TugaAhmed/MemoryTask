@@ -1,7 +1,7 @@
 # Memory VR Game (Restorer)
 **Open-Source Reconstruction of a Cognitive Memory Task for Eye-Tracking–Based Cognitive Load Assessment**
 
-(images/gampeplay.mp4)
+<video src="images/gameplay.mp4" controls width="700"></video>
 
 ## Short Description
 **Memory VR Game (Restorer)** is an open-source Unity3D reconstruction of the *Restorer* memory task from the [Neuronation](https://www.neuronation.com/) cognitive training app, adapted for immersive virtual reality.    
