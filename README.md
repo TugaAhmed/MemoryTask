@@ -1,7 +1,9 @@
 # Memory VR Game (Restorer)
 **Open-Source Reconstruction of a Cognitive Memory Task for Eye-Tracking–Based Cognitive Load Assessment**
 
-![](images/gameplay.gif)
+<p align="center">
+  <img src="images/gameplay.gif" width="700" height="700">
+</p>
 
 ## Short Description
 **Memory VR Game (Restorer)** is an open-source Unity3D reconstruction of the *Restorer* memory task from the [Neuronation](https://www.neuronation.com/) cognitive training app, adapted for immersive virtual reality.    
@@ -12,7 +14,9 @@ The game presents participants with a grid of objects during a 8-second memoriza
 
  To isolate intrinsic load and minimize extraneous cognitive effort, the VR environment was intentionally designed to be minimalistic and distraction-free: a plain room, neutral lighting, and a virtual screen directly in front of the participant. Participants interacted using VR controllers, and all gameplay was preceded by gaze calibration and task familiarization.
 
- ![VR Environment Overview](images/env.png)
+<p align="center">
+  <img src="images/env.png" width="500" height="500">
+</p>
 
 During gameplay, two main data streams were recorded in real time:
 
@@ -21,5 +25,30 @@ During gameplay, two main data streams were recorded in real time:
 
 - **Task performance metrics**:  
   Level number, task start and end time, duration, selected objects, and correctness.
+
+
+## Tools & Technologies Used
+
+This project was developed, tested, and deployed using the following hardware and software setup. These specifications are provided to support reproducibility and consistent VR performance across research environments.
+
+## System Specifications (Development & Testing)
+
+- **Windows 10 Pro 64-bit**  
+- **AMD Ryzen 7 3700X**  
+- **32 GB DDR4 RAM**
+- **NVIDIA GeForce RTX 2080**
+  
+## Unity Development Environment
+- **Unity Hub** :  Version Used: 3.10.0
+- **Unity Editor** : Unity 2020.3.30f1 (LTS)  
+ 
+
+## SDKs & VR Tools
+- **Tobii XR SDK for Unity** - TobiiXRSDK_3.0.1.179
+- **HTC VIVE Headset(Tobii Eye Tracking VR Retrofit Service)**
+- **Brick Project Studio** - Apartment Kit
+- **SteamVR 2.14.3**
+- **Vive Console**
+- **SRanipal Runtime**
 
 
