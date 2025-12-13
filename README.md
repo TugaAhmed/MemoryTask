@@ -150,4 +150,34 @@ The task performance dataset includes:
 - **Selection Times:**  
   The timestamp at which each empty position was filled during the level.
 
+## Research Use & Citation
+
+This project is an open-source VR reconstruction of a structured memory task, developed
+and used for research on **intrinsic cognitive load assessment in immersive VR environments**
+using eye-tracking data.
+
+The game was used to collect synchronized eye-tracking and task performance data
+for modeling cognitive load during memory-intensive VR tasks.
+
+If you use this software, dataset, or any derived material in academic work,
+**please cite both the repository and the associated publication**.
+
+### Associated Paper
+*(Add link when published)*  
+> T. Yousif, *Eye-Tracking-Based Intrinsic Cognitive Load Assessment in Virtual Reality*.
+
+### Dataset
+A dataset containing eye-tracking and task performance data collected using this game
+is available at:  
+*(Add dataset link)*
+
+### Citation (BibTeX)
+```bibtex
+@software{yousif_restorer_vr,
+  author = {Yousif, Tuga},
+  title = {Restorer VR: A Memory-Based Cognitive Load Assessment Game},
+  year = {2025},
+  url = {https://github.com/your-repo},
+}
+
 
