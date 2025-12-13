@@ -95,3 +95,59 @@ From the Unity menu, open:
 - Connect the VR headset
 - Launch SRanipal Runtime
 - Press Play in Unity
+
+## Data Logging
+During gameplay, data are continuously recorded for **each level** and stored in **CSV format**.  
+All data files are saved in:  **Restorer/data**
+
+## Collected Data Types
+
+Two main categories of data are collected: **eye-tracking metrics** and **task performance data**.
+
+### Eye-Tracking Data
+The eye-tracking dataset includes the following fields:
+- **Gaze Origin (3D position):**  
+  The 3D position of the eyes in the virtual environment.
+
+- **Gaze Direction (3D vector):**  
+  The direction in which the eyes are pointing.
+
+- **Gaze Validity:**  
+  Indicates whether the recorded gaze data is considered reliable.
+
+- **Blinking Status:**  
+  Indicates whether the left or right eye is blinking.
+
+- **Gaze Hit Point (3D):**  
+  The specific point in the virtual environment where the gaze ray intersects.
+
+- **Looked-at Object:**  
+  The name of the virtual object currently being viewed.
+
+- **Game Level:**  
+  The level of the VR task during which the gaze data was recorded.
+
+
+### Task Performance Data
+
+The task performance dataset includes:
+
+- **Game Level:**  
+  The level number of the task being performed.
+
+- **Start Time / End Time:**  
+  Timestamps indicating when the level began and ended.
+
+- **Duration:**  
+  Total time taken by the participant to complete the level.
+
+- **Accuracy:**  
+  Indicates whether an empty position was filled correctly:
+  - `yes` → correct
+  - `no` → incorrect
+  - `none` → not filled
+
+- **Selection Times:**  
+  The timestamp at which each empty position was filled during the level.
+
+
