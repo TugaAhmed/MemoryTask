@@ -179,5 +179,28 @@ is available at:
   year = {2025},
   url = {https://github.com/your-repo},
 }
+```
 
+## License
 
+This project is released under the **MIT License**.
+
+You are free to use, modify, and distribute this software for research and educational
+purposes, provided that proper attribution is given.
+
+> **Note:** This repository does not redistribute proprietary Unity Asset Store content.
+Third-party assets (e.g., Brick Project Studio) are subject to their own licenses and must
+be obtained separately by the user.
+
+## Acknowledgements
+
+This project was inspired by memory-based cognitive tasks commonly used in
+digital cognitive training platforms, including the *Restorer* task from **Neuronation**.
+This implementation is an independent, open-source reconstruction designed
+exclusively for research purposes.
+
+The authors also acknowledge:
+- **HTC VIVE** for the VR hardware ecosystem
+- **Tobii** for XR eye-tracking tools and SDKs
+- **Unity Technologies** for the game engine
+- Contributors and participants who supported development and evaluation
